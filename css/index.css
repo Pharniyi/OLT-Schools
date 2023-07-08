@@ -98,12 +98,12 @@ body{
     align-items: center;
 }
 .hero {
-    width: 80;
+    width: 80%;
     height: 80%;
     background-color: linear-gradient(45deg, #6ac1c5, #bdaff5);
     position: relative;
 }
-#calender{
+/*#calender{
     width: 50%;
     position: absolute;
     top: 50%;
@@ -111,10 +111,80 @@ body{
     transform: translate(-50%, -50%);
 
 
-}
+}*/
 .mine{
     background-color:rgb(208, 211, 13);
 }
 .me{
     background-color: blue;
+}
+.Losh{
+    padding-right: 30px;
+}
+.Admin{
+    justify-content: space-between;
+    align-content: space-around;
+}
+.earth{
+    color: #1A54C2;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.calender{
+    width: 45rem;
+    height: 52rem;
+    box-shadow: 0.5rem 3rem #FFF;
+}
+.weekdays{
+    width: 100%;
+     display: flex;
+     align-items: center;
+}
+.weekdays div{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.days div{
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(49/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event{
+    color: #4F5360;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.year{
+    color: #4F5360;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
 }
