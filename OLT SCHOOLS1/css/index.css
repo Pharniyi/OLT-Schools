@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?=family=poppins:wght@400:600&display=swap");
+body{
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+}
+#menu{
+    background-color: blue;
+    border-radius: 20px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#menu .items{
+    margin-top: 40px;
+    margin-bottom: 100%;
+    
+}
+#menu .items li{
+      list-style: none;
+      padding:  15px;
+      margin: 10px 0;
+      display:flex;
+      
+}
+
+#menu .items li .mine {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+#menu .items li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+.part1{
+    width: 100%;
+    max-width: fit-content;
+    padding: 0 50px;
+    border: none;
+}
+.nav-search{
+    flex:1;
+    border: none;
+}
+.input-holder{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    padding: 16px 40px;
+}
+.search{
+     margin-left: 1rem;
+ }
+#hero{
+    width: 100% -300px;
+    
+}
+#hero .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+    
+}
+#hero .navigation .part1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+
+}
+#hero .navigation .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero .dashboard{
+    padding-left: 50px;
+}
+ #hero .values {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#hero .values .row {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero {
+    width: 80%;
+    height: 80%;
+    background-color: linear-gradient(45deg, #6ac1c5, #bdaff5);
+    position: relative;
+}
+/*#calender{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}*/
+.mine{
+    background-color:rgb(208, 211, 13);
+}
+.me{
+    background-color: blue;
+}
+.Losh{
+    padding-right: 30px;
+}
+.Admin{
+    justify-content: space-between;
+    align-content: space-around;
+}
+.earth{
+    color: #1A54C2;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.calender{
+    width: 45rem;
+    height: 52rem;
+    box-shadow: 0.5rem 3rem #FFF;
+}
+.weekdays{
+    width: 100%;
+     display: flex;
+     align-items: center;
+}
+.weekdays div{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.days div{
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(49/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event{
+    color: #4F5360;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.year{
+    color: #4F5360;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
