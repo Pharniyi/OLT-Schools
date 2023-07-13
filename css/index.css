@@ -84,7 +84,13 @@ body{
 #hero .dashboard{
     padding-left: 50px;
 }
- #hero .values {
+#hero .values .card1{
+           
+}
+.content{
+    display: flex;
+}
+ /*#hero .values {
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -102,7 +108,7 @@ body{
     height: 80%;
     background-color: linear-gradient(45deg, #6ac1c5, #bdaff5);
     position: relative;
-}
+}*/
 /*#calender{
     width: 50%;
     position: absolute;
